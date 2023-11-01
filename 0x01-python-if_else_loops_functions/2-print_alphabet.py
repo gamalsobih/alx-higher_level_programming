@@ -3,5 +3,5 @@
 # Brennan D Baraban <375@holbertonschool.com>
 
 """Print the alphabet in lowercase, not followed by a new line."""
-for letter in range(97, 123):
-    print("{:letter}".format(chr(letter)), end="")
+for c in range(ord('a'), ord('z') + 1):
+    print("{:c}".format(c), end="")

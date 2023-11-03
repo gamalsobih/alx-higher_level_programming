@@ -8,5 +8,5 @@ elif argc ==1 :
     print("1 argument:")
 else :
     print("{} arguments:".format(argc))
-for i in range(argc):
-    print("{}:{}".format(argc+1, sys.argv[i+1]))
+for i in range(0,argc):
+    print("{}:{}".format(i+1, sys.argv[i+1]))

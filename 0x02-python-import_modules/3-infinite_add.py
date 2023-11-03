@@ -8,6 +8,6 @@ if argc == 0:
 elif argc == 1:
     print("{}".format(sys.argv[1]))
 else:
-  for i in range(0, argc):
-    sum += int(sys.argv[i+1]))
-   print("{}".format(sum))
+    for i in range(0, argc):
+        sum += int(sys.argv[i+1])
+    print("{}".format(sum))

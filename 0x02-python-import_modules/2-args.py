@@ -9,4 +9,4 @@ elif argc == 1:
 else:
     print("{} arguments:".format(argc))
 for i in range(0, argc):
-    print("{}:{}".format(i + 1, sys.argv[i + 1]))
+    print("{}: {}".format(i + 1, sys.argv[i + 1]))
